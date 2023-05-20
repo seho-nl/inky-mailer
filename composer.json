@@ -1,0 +1,28 @@
+{
+    "name": "seho-nl/inky-mailer",
+    "description": "Abstract mailer to send emails with Symfony Mailer (symfony/mailer) and format with Foundation Email (Inky).",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*",
+        "symfony/config": "^5.4 | ^6.0",
+        "symfony/dependency-injection": "^5.4 | ^6.0",
+        "symfony/mailer": "^6.2",
+        "symfony/twig-bundle": "^6.2",
+        "symfony/event-dispatcher": "^6.2",
+        "twig/inky-extra": "^3.5",
+        "twig/cssinliner-extra": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SeHo\\InkyMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastien Hoek",
+            "email": "sebastienhoek@gmail.com"
+        }
+    ]
+}

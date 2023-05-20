@@ -1,0 +1,5 @@
+services:
+    seho_inky_mailer.base_handler:
+        class: SeHo\InkyMailer\Handler\BaseInkyMailHandler
+
+    SeHo\InkyMailer\Handler\BaseInkyMailHandler: '@seho_inky_mailer.base_handler'

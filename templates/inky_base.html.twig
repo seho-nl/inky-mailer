@@ -1,0 +1,13 @@
+{% apply inky_to_html|inline_css(emailCss) -%}
+    {%- block header -%}
+        {{ include('@SehoInkyMailer/layout/_header.html.twig') }}
+    {%- endblock -%}
+
+    <container>
+        {% block body %}{% endblock %}
+    </container>
+
+    {%- block footer -%}
+        {{ include('@SehoInkyMailer/layout/_footer.html.twig') }}
+    {%- endblock -%}
+{%- endapply %}

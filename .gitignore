@@ -1,0 +1,5 @@
+.idea
+vendor
+node_modules
+.php-cs-fixer.dist.php
+composer.lock

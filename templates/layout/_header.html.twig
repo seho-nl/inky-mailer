@@ -1,0 +1,16 @@
+<wrapper class="header">
+    <container>
+        <row class="collapse">
+            <columns small="9" valign="middle">
+                <h3>{{ appName|default('appName') }}</h3>
+            </columns>
+            <columns small="3" valign="middle">
+                {% block header_right %}T{% endblock %}
+            </columns>
+        </row>
+    </container>
+</wrapper>
+
+<container class="header-body-line">
+    <spacer size="3"></spacer>
+</container>
